@@ -1,4 +1,4 @@
-hostname = new.api.hdcj.9w9.com, h5.ele.me
+hostname = new.api.hdcj.9w9.com, h5.ele.me, e.189.cn, weclub.ccc.cmbchina.com
 
 # 饿了么
 ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://github.com/songyangzz/QuantumultX/raw/master/elem/elemGetCookies.js
