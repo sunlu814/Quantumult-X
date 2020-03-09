@@ -5,3 +5,6 @@ hostname = new.api.hdcj.9w9.com, h5.ele.me
 
 # 微信小程序 - 活动抽奖
 ^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign url script-request-body https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery.js
+
+#电信流量话费
+^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_telecom.js
