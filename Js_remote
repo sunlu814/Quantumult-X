@@ -1,7 +1,4 @@
-hostname = education.github.com, *.googlevideo.com
-
-#workingcopy
-^https:\/\/education\.github\.com\/api\/user$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/workingcopy.js
+hostname = *.googlevideo.com
 
 # YouTube去广告
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
