@@ -133,7 +133,7 @@ https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php url script-resp
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js
 
 # 115
-^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\? url script-request-header https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
+^https?:\/\/proapi\.115\.com\/ios\/user\/takespc\? url script-request-body https://raw.githubusercontent.com/zZPiglet/Task/master/115/115.js
 
 # YouTube去广告
 ^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
