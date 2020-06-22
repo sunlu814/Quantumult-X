@@ -1,7 +1,7 @@
 hostname = new.api.hdcj.9w9.com, h5.ele.me, e.189.cn, weclub.ccc.cmbchina.com, wapside.189.cn,music.163.com,tieba.baidu.com,*.rrys2019.com, ios.zmzapi.com,*.smzdm.com,api.m.jd.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, 110.43.90.61, zt.wps.cn
 
 #电信营业厅
-#^https:\/\/wapside.189.cn:9001\/api\/home\/sign url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
+;^https:\/\/wapside.189.cn:9001\/api\/home\/sign url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
 
 #网易云音乐 PC&App
 ^https:\/\/music.163.com\/weapi\/user\/level url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.cookie.js
@@ -33,10 +33,10 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://github.com/songyangzz/QuantumultX/raw/master/elem/elemGetCookies.js
 
 # 微信小程序 - 活动抽奖
-#^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign url script-request-body https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery.js
+;^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign url script-request-body https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery.js
 
 #电信流量话费
-#^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_telecom.js
+;^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_telecom.js
 
 #招行信用卡公众号
-#https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cmbchina.js
+;https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cmbchina.js
