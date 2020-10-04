@@ -1,4 +1,4 @@
-hostname = c.tieba.baidu.com, api.m.jd.com, e.189.cn, wapside.189.c, i.meituan.com, i.meituan.com, *.smzdm.com, 110.43.90.61, zt.wps.cn, *.rrys2020.com, ios.zmzapi.com, h5.ele.me
+hostname = c.tieba.baidu.com, api.m.jd.com, e.189.cn, wapside.189.c, i.meituan.com, i.meituan.com, *.smzdm.com, 110.43.90.61, zt.wps.cn, *.rrys2020.com, ios.zmzapi.com, h5.ele.me, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com
 
 # 百度贴吧
 # 打开百度贴吧App后(AppStore中国区, 非内部版)，点击"我的", 如通知成功获取cookie, 则可以使用此签到脚本.
@@ -39,3 +39,12 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-reques
 # 饿了么" app(9.0.10) "我的 - 打卡领红包"自动签到
 ^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
 
+# 苏宁易购
+# 【必要】打开 APP, 系统提示: 获取Cookie: 成功 (登录链接)
+# 【可选】进入 主页 > 签到有礼, 系统提示: 获取Cookie: 成功 (每日签到)
+# 【可选】进入 主页 > 领取红包, 系统提示: 获取Cookie: 成功 (每日红包) (如果找不到领取红包，尝试卸载苏宁重新安装) 兼容之前 @barrymchen 写的 snyg.js 如果之前有用这个脚本获取过 Cookie 那不用重新取
+# 【可选】进入 主页 > 天天低价 > 点右上角宝箱, 系统提示: 获取Cookie: 成功 (天天低价)、获取Cookie: 成功 (查询天天低价)
+^https:\/\/passport.suning.com\/ids\/login$ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
