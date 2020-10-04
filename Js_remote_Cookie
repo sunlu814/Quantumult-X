@@ -1,42 +1,41 @@
-hostname = new.api.hdcj.9w9.com, h5.ele.me, e.189.cn, weclub.ccc.cmbchina.com, wapside.189.cn,music.163.com,tieba.baidu.com,*.rrys2019.com, ios.zmzapi.com,*.smzdm.com,api.m.jd.com, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, 110.43.90.61, zt.wps.cn
+hostname = c.tieba.baidu.com, api.m.jd.com, e.189.cn, wapside.189.c, i.meituan.com, i.meituan.com, *.smzdm.com, 110.43.90.61, zt.wps.cn, *.rrys2020.com, ios.zmzapi.com, h5.ele.me
 
-#电信营业厅
-;^https:\/\/wapside.189.cn:9001\/api\/home\/sign url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
+# 百度贴吧
+# 打开百度贴吧App后(AppStore中国区, 非内部版)，点击"我的", 如通知成功获取cookie, 则可以使用此签到脚本.
+# 获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
+https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
 
-#网易云音乐 PC&App
-^https:\/\/music.163.com\/weapi\/user\/level url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.cookie.js
-
-#百度贴吧
-^https?:\/\/tieba\.baidu\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/tieba/tieba.cookie.js
-
-#字幕组 Web&App
-^https?:\/\/(www\.)?rrys2019\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
-^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
-
-#什么值得买
-^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
-
-#京东签到
+# 京东
+# Safari浏览器打开登录 https://bean.m.jd.com ,点击签到并且出现签到日历后, 如果通知获得cookie成功, 则可以使用此签到脚本。 注: 请勿在京东APP内获取!!!
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
-#苏宁易购
-^https:\/\/passport.suning.com\/ids\/login$ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
-^https:\/\/luckman.suning.com\/luck-web\/sign\/api\/clock_sign.do url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
-^https:\/\/sign.suning.com\/sign-web\/m\/promotion\/sign\/doSign.do url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
-^https:\/\/gameapi.suning.com\/sngame-web\/(api\/signin\/private\/customerSignOperation.do|gateway\/api\/queryPrize.do) url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/suning/suning.cookie.js
+# 电信套餐查询
+^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do url script-request-header https://raw.githubusercontent.com/Sunert/Scripts/master/Task/telecomInfinity.js
 
-#wps
+# 电信营业厅
+# 打开 APP 手动签到一次: 访问下右下角 我 > 签到 (头像下面)
+^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/10000/10000.cookie.js
+
+# 美团
+# 打开 APP , 然后手动签到 1 次, 系统提示: 获取Cookie: 成功 (首页 > 红包签到)
+^https:\/\/i.meituan.com\/evolve\/signin\/signpost\/ url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.cookie.js
+
+# 什么值得买
+# 浏览器访问并登录: https://zhiyou.smzdm.com/user/login
+# 打开浏览器访问: https://www.smzdm.com
+^https:\/\/www\.smzdm\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.cookie.js
+
+# wps
+# 打开 APP , 进入签到页面, 系统提示: 获取会话: 成功 (签到) (不用手动签到)
 ^https:\/\/zt.wps.cn\/2018\/docer_check_in\/api\/act_list url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
-^https:\/\/zt.wps.cn\/2018\/clock_in\/api\/sign_up url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/wps/wps.cookie.js
+
+# 字幕组
+# 网页：打开浏览器访问: http://www.rrys2020.com
+# APP：打开 APP 即可
+^https?:\/\/(www\.)?rrys2020\.com\/?.? url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
+^http:\/\/ios.zmzapi.com\/index.php.*a=(mobile_)?login url script-request-header https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.cookie.js
 
 # 饿了么
-^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://github.com/songyangzz/QuantumultX/raw/master/elem/elemGetCookies.js
+# 饿了么" app(9.0.10) "我的 - 打卡领红包"自动签到
+^https:\/\/h5\.ele\.me\/restapi\/eus\/v\d\/current_user$ url script-request-header https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemGetCookies.js
 
-# 微信小程序 - 活动抽奖
-;^https:\/\/new\.api\.hdcj\.9w9\.com\/api\/sign\/sign url script-request-body https://raw.githubusercontent.com/zZPiglet/Task/master/WeChatLottery/WeChatLottery.js
-
-#电信流量话费
-;^https?:\/\/e\.189\.cn\/store\/user\/package_detail\.do url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/china_telecom.js
-
-#招行信用卡公众号
-;https://weclub\.ccc\.cmbchina.com/SCRMCustomActivityFront/checkin/request/get-home-data\.json\?activityCode=checkin url script-request-header https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Script/cmbchina.js
