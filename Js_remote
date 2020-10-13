@@ -1,4 +1,4 @@
-hostname = *.googlevideo.com, s.youtube.com, www.youtube.com, youtubei.googleapis.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, aweme*.snssdk.com, *.kuwo.cn, *.xiaoxiao*.com, *.amemv.com, p.du.163.com, getuserinfo.321mh.com, getuserinfo-globalapi.zymk.cn, ios.fuliapps.com, vsco.co, api.vnision.com, *.my10api.com, apple.fuliapps.com, newdrugs.dxy.cn, app101.avictown.cc, api.hlo.xyz, api.ijo.xyz, www.luqijianggushi.com, account.wps.cn, u.kanghuayun.com, api1.dobenge.cn, api.mvmtv.com, mitaoapp.yeduapp.com, origin-prod-phoenix.jibjab.com, www.3ivf.com, pay.guoing.com, api.bjxkhc.com, viva.v21xy.com, biz.caiyunapp.com, ap*.intsig.net, mp.bybutter.com, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com, api.gamer.com.tw
+hostname = api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, mp.weixin.qq.com, api.bilibili.com, app.bilibili.com, www.zhihu.com, api.zhihu.com, link.zhihu.com, aweme*.snssdk.com, *.kuwo.cn, *.xiaoxiao*.com, *.amemv.com, p.du.163.com, getuserinfo.321mh.com, getuserinfo-globalapi.zymk.cn, ios.fuliapps.com, vsco.co, api.vnision.com, *.my10api.com, apple.fuliapps.com, newdrugs.dxy.cn, app101.avictown.cc, api.hlo.xyz, api.ijo.xyz, www.luqijianggushi.com, account.wps.cn, u.kanghuayun.com, api1.dobenge.cn, api.mvmtv.com, mitaoapp.yeduapp.com, origin-prod-phoenix.jibjab.com, www.3ivf.com, pay.guoing.com, api.bjxkhc.com, viva.v21xy.com, biz.caiyunapp.com, ap*.intsig.net, mp.bybutter.com, api.vuevideo.net, api.picsart.c*, api.meiease.c*, ios.xiangjiaoapps.com, apple.xiangjiaoapps.com, *.xiangxiangapps.com, trade-acs.m.taobao.com, api.m.jd.com, ios.prod.ftl.netflix.com, api.gamer.com.tw
 
 # 去微博应用内广告 (By yichahucha)
 ^https?://(sdk|wb)app.uve.weibo.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js
@@ -119,16 +119,3 @@ https:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v3\/token\.php url script-resp
 # Netflix评分
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-request-header https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
 ^https?://ios\.prod\.ftl\.netflix\.com/iosui/user/.+path=%5B%22videos%22%2C%\d+%22%2C%22summary%22%5D url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/nf_rating.js
-
-
-# YouTube去广告
-#^https?:\/\/.+\.googlevideo\.com\/.+&oad url reject-img
-#^https?:\/\/.+\.googlevideo\.com\/.+ctier url reject-img
-#^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+ad_ url reject-img
-#^https?:\/\/youtubei\.googleapis\.com\/youtubei\/.+log_ url reject-img
-#^https?:\/\/.+\.youtube\.com\/get_midroll_ url reject-img
-#^https?:\/\/premiumyva\.appspot\.com\/vmclickstoadvertisersite url reject-img
-#^https?:\/\/.+\.youtube\.com\/api\/stats\/ads url reject-img
-#^https?:\/\/.+\.youtube\.com\/api\/stats\/.+adformat url reject-img
-#^https?:\/\/.+\.youtube\.com\/pagead\/ url reject-img
-#^https?:\/\/.+\.youtube\.com\/ptracking url reject-img
