@@ -1,9 +1,12 @@
-hostname = c.tieba.baidu.com, api.m.jd.com, e.189.cn, wapside.189.c, i.meituan.com, i.meituan.com, *.smzdm.com, 110.43.90.61, zt.wps.cn, *.rrys2020.com, ios.zmzapi.com, h5.ele.me, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com
+hostname = c.tieba.baidu.com, api.m.jd.com, e.189.cn, wapside.189.c, i.meituan.com, i.meituan.com, *.smzdm.com, 110.43.90.61, zt.wps.cn, *.rrys2020.com, ios.zmzapi.com, h5.ele.me, passport.suning.com, luckman.suning.com, sign.suning.com, gameapi.suning.com, music.163.com
 
 # 百度贴吧
 # 打开百度贴吧App后(AppStore中国区, 非内部版)，点击"我的", 如通知成功获取cookie, 则可以使用此签到脚本.
 # 获取Cookie后, 请将Cookie脚本禁用并移除主机名，以免产生不必要的MITM.
 https?:\/\/(c\.tieba\.baidu\.com|180\.97\.\d+\.\d+)\/c\/s\/login url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js
+
+#网易云音乐 PC&App
+^https:\/\/music.163.com\/weapi\/user\/level url script-request-body https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/quanx/neteasemusic.cookie.js
 
 # 京东
 # Safari浏览器打开登录 https://bean.m.jd.com ,点击签到并且出现签到日历后, 如果通知获得cookie成功, 则可以使用此签到脚本。 注: 请勿在京东APP内获取!!!
