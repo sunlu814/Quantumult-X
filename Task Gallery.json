@@ -1,5 +1,4 @@
 {
-    # NobyDa
     "name": "Nobyda",
     "description": "https://github.com/NobyDa/Script/tree/master",
     "task": [
@@ -11,7 +10,6 @@
         "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/iQIYI.png, enabled=true",
     ]
     
-    # Sunert
     "name": "Sunert",
     "description": "https://github.com/Sunert/Scripts/tree/master/Task",
     "task": [
@@ -36,7 +34,6 @@
          "*/30 * * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速版 ,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png, enabled=true",
     ]
     
-    # chavyleung
     "name": "chavyleung",
     "description": "https://github.com/chavyleung/scripts",
     "task": [
@@ -102,7 +99,6 @@
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js, tag=智行火车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zxhc.png, enabled=true",
     ]
     
-    # Peng-YM
     "name": "Peng-YM",
     "description": "https://github.com/Peng-YM/QuanX/tree/master/Tasks",
     "task": [
@@ -118,7 +114,6 @@
         "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/zongheng.js, tag=纵横小说, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zongheng.png, enabled=true",
     ]
     
-    # zZPiglet
     "name": "zZPiglet",
     "description": "https://github.com/zZPiglet/Task/tree/master",
     "task": [
@@ -137,7 +132,6 @@
         "0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/umetrip.png, enabled=true",
     ]
     
-    # lowking
     "name": "lowking",
     "description": "https://github.com/lowking/Scripts",
     "task": [
@@ -151,7 +145,6 @@
         "0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/weibo/weiboSTCookie.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png, enabled=true",
     ]
     
-    # songyangzz
     "name": "songyangzz",
     "description": "https://github.com/songyangzz/QuantumultX",
     "task": [
@@ -160,8 +153,7 @@
         "0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=testflight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png, enabled=true",
     ]
     
-    # lxk0301
-    "name": "lxk0301",
+   "name": "lxk0301",
   "description": "https://gitee.com/lxk0301",
   "task": [
     "5 6-18/6 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_fruit.js, tag=东东农场, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=true",
@@ -201,7 +193,6 @@
     "1 7 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=true",
   ]
   
-  # evilbutcher
   "name": "evilbutcher",
   "description": "https://github.com/evilbutcher/Quantumult_X",
   "task": [
@@ -214,7 +205,6 @@
     "25 4 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/jiumu/jiumu.js, tag=九木杂物社, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jiumu.png, enabled=true"
   ]
   
-  # iepngs
   "name": "iepngs",
     "description": "https://raw.githubusercontent.com/iepngs/Script/master",
     "task": [
@@ -226,7 +216,6 @@
         "0 9 * * * https://raw.githubusercontent.com/iepngs/Script/master/lxsj/index.js,tag=旅行世界购物版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/lxsj.png, enabled=true",
     ]
     
-    # wangdelu2020
     "name": "wangdelu2020",
     "description": "https://github.com/wangdelu2020/hongliyu",
     "task": [
@@ -239,7 +228,6 @@
         "0 30 0,6 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/newsinachaohua.js, tag=新浪微博超话签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png, enabled=true",
     ]
     
-    # DD-D1
     "name": "DD-D1",
     "description": "https://github.com/DD-D1/2020scripts",
     "task": [
@@ -258,7 +246,6 @@
         "0 10 0 * * * https://raw.githubusercontent.com/DD-D1/2020scripts/master/zymkSign.js, tag= 知音漫客, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zymk.png, enabled=true",    
     ]
     
-    # passerby-b
     "name": "passerby-b",
     "description": "https://gitee.com/passerby-b/javascript",
     "task": [
