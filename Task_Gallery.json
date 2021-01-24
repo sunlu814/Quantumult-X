@@ -8,7 +8,7 @@
         "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, tag=京东, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/KuaiKan-DailyBonus/KKMH.js, tag=快看漫画, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/KuaiKan.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js, tag=爱奇艺, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/iQIYI.png, enabled=true",
-    ]
+    ],
     
     "name": "Sunert",
     "description": "https://github.com/Sunert/Scripts/tree/master/Task",
