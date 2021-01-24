@@ -32,7 +32,7 @@
         "0 9 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js, tag=中青看点极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/youth.png, enabled=true",
          "*/10 */3 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jukan.js, tag=聚看点 ,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jukan.png, enabled=true",
          "*/30 * * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/baidu_speed.js, tag=百度极速版 ,img-url=https://raw.githubusercontent.com/Orz-3/mini/master/baidu.png, enabled=true",
-    ]
+    ],
     
     "name": "chavyleung",
     "description": "https://github.com/chavyleung/scripts",
@@ -97,7 +97,7 @@
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zimuzu/zimuzu.js, tag=字幕组, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zimuzu.png, enabled=true",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zsfc/zsfc.js, tag=掌上飞车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zsfc.png, enabled=true",
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js, tag=智行火车, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zxhc.png, enabled=true",
-    ]
+    ],
     
     "name": "Peng-YM",
     "description": "https://github.com/Peng-YM/QuanX/tree/master/Tasks",
@@ -112,7 +112,7 @@
         "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/steam.js, tag=Steam价格, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/steam.png, enabled=true",
         "0 21 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/telegram.js, tag=Telegram频道图片推送, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/tgpic.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/zongheng.js, tag=纵横小说, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zongheng.png, enabled=true",
-    ]
+    ],
     
     "name": "zZPiglet",
     "description": "https://github.com/zZPiglet/Task/tree/master",
@@ -130,7 +130,7 @@
         "1 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js, tag=饿了么-打卡领红包, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/elem.png, enabled=true",
         "0 * * * * https://raw.githubusercontent.com/zZPiglet/Task/master/heybox/heybox.js, tag=小黑盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/heybox.png, enabled=true",
         "0 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/umetrip/umetrip.js, tag=航旅纵横, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/umetrip.png, enabled=true",
-    ]
+    ],
     
     "name": "lowking",
     "description": "https://github.com/lowking/Scripts",
@@ -143,7 +143,7 @@
         "0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/douyu/yubaSign.js, tag=斗鱼鱼吧, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/douyu.png, enabled=true",
         "0 0 0 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/sony/sonyClub.js, tag=索尼俱乐部, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/SONY.png, enabled=true",
         "0 0 0,1 * * ? https://raw.githubusercontent.com/lowking/Scripts/master/weibo/weiboSTCookie.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png, enabled=true",
-    ]
+    ],
     
     "name": "songyangzz",
     "description": "https://github.com/songyangzz/QuantumultX",
@@ -151,7 +151,7 @@
         "1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/elem.png, enabled=true",
         "1 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js, tag=LOL排行查询, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/lol.png, enabled=true",
         "0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=testflight公测监控, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/testflight.png, enabled=true",
-    ]
+    ],
     
    "name": "lxk0301",
   "description": "https://gitee.com/lxk0301",
@@ -191,7 +191,7 @@
     "5 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jx_sign.js, tag=京喜签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=true",
     "2 0 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=true",
     "1 7 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jd.png, enabled=true",
-  ]
+  ],
   
   "name": "evilbutcher",
   "description": "https://github.com/evilbutcher/Quantumult_X",
@@ -203,7 +203,7 @@
     "45 3 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/weibo/weibotalk.js, tag=微博超话, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png, enabled=true",
     "0 4 8 * * *  https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/funboat/funboat.js, tag=Funboat, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/funboat.png, enabled=true",
     "25 4 8 * * * https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/jiumu/jiumu.js, tag=九木杂物社, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jiumu.png, enabled=true"
-  ]
+  ],
   
   "name": "iepngs",
     "description": "https://raw.githubusercontent.com/iepngs/Script/master",
@@ -214,7 +214,7 @@
         "29 8 * * * https://raw.githubusercontent.com/iepngs/Script/master/ctrip/index.js,tag=携程旅行, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/ctrip.png, enabled=true",
         "5,35 8-21 * * * https://raw.githubusercontent.com/iepngs/Script/master/jrtt/index.js,tag=今日头条极速版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/jrtt.png, enabled=true",
         "0 9 * * * https://raw.githubusercontent.com/iepngs/Script/master/lxsj/index.js,tag=旅行世界购物版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/lxsj.png, enabled=true",
-    ]
+    ],
     
     "name": "wangdelu2020",
     "description": "https://github.com/wangdelu2020/hongliyu",
@@ -226,7 +226,7 @@
         "0 2,13,25,45,55 0-23 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/wxdaka.js, tag=微信小程序打卡签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/wxdaka.png, enabled=true",
         "0 30 6-23 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/liantongnotice.js, tag=联通流量话费提醒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/10010.png, enabled=true",
         "0 30 0,6 * * ? https://raw.githubusercontent.com/wangdelu2020/hongliyu/master/newsinachaohua.js, tag=新浪微博超话签到, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/weibo.png, enabled=true",
-    ]
+    ],
     
     "name": "DD-D1",
     "description": "https://github.com/DD-D1/2020scripts",
@@ -244,11 +244,11 @@
         "0 10 0 * * * https://raw.githubusercontent.com/DD-D1/2020scripts/master/yzkbSign.js, tag= 柚子快报, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/yzkb.png, enabled=true",    
         "0 10 0 * * * https://raw.githubusercontent.com/DD-D1/2020scripts/master/zscdbSign.js, tag=追书畅读版, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zscdb.png, enabled=true",
         "0 10 0 * * * https://raw.githubusercontent.com/DD-D1/2020scripts/master/zymkSign.js, tag= 知音漫客, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/zymk.png, enabled=true",    
-    ]
+    ],
     
     "name": "passerby-b",
     "description": "https://gitee.com/passerby-b/javascript",
     "task": [
         "0 9 * * * https://gitee.com/passerby-b/javascript/raw/master/unipay.js, tag=云闪付, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/unipay.png, enabled=true",
-    ]
+    ],
 }
